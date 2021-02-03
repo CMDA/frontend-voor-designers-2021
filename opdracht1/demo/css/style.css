@@ -1,0 +1,16 @@
+* {
+  box-sizing:border-box;
+}
+html{
+  background:#eee;
+  background: url("../img/flagF4D.png") center no-repeat;
+}
+
+body{
+  max-width: 30em;
+  margin: 1em auto;
+  padding: 1em;
+  background: #fff;
+  border-radius: 1em;
+  box-shadow: 0.5em 0.5em 0.5em rgba(68,68,68,0.6);
+}
