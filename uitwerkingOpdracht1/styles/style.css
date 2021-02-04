@@ -1,0 +1,119 @@
+body {
+  padding: 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: #1c254e
+}
+
+p, h1, h2, h3, h4, h5,strong {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+li {
+font-size: 2em;
+color: white;
+margin-left: 8%;
+font-family: 'Montserrat', sans-serif;
+}
+
+/* begin header */
+header {
+  height: 15vh;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+header > div {
+  margin-left: 10vw;
+  width: 100%;
+}
+
+header > div > h1 {
+  font-size: 4em;
+}
+
+/* einde header */
+
+
+/* begin main*/
+
+main {
+  height: auto;
+}
+main > section {
+  width: 100%;
+  margin-top: 5vh;
+}
+
+main > section > article > h2 {
+  margin: 8% 0% 2% 8% ;
+    font-size: 4em;
+    color: #ffffff;
+}
+
+main > section > article > p {
+  width: 70%;
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-left: 8vw;
+}
+
+main > section > article > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+main > section article > div >  img {
+width: 85%;
+height: 90%;
+border-radius: 60px;
+}
+
+button {
+  height: 6vh;
+  width: 30vw;
+  font-size: 35px;
+  border-radius: 14px;
+  margin: 4vh;
+  background-color: #2bd2ff;
+  color: #ffffff;
+}
+
+
+/* Hier komt de JS styling */
+.meerInformatie {
+  display: none;
+  height: 50vh;
+}
+
+.meerInformatie > h3 {
+  font-size: 3em;
+  color: #fff;
+  margin: 2% 0% 1% 8%;
+}
+
+.meerInformatie > h4 {
+  font-size: 2.5em;
+  color: #fff;
+  margin: 2% 0% 1% 8%;
+
+}
+
+.meerInformatie > p {
+  margin-top: 3%;
+  margin-left: 8%;
+  font-size: 2em;
+  color: #fff;
+}
+
+.nieuwResults{
+  display: block !important;
+  height: 50vh;
+}
