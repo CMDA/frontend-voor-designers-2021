@@ -1,0 +1,177 @@
+body {
+  padding: 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+p, h1, h2, h3, h4, h5,strong {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: #000 !important;
+}
+
+li {
+font-size: 2em;
+color: #000;
+margin-left: 8%;
+font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  animation: intoScreen;
+  animation-duration: 2s;
+}
+
+@keyframes intoScreen {
+  from{transform: translateX(-100%);}
+  to {transform: translateX(0%);}
+}
+
+/* begin header */
+header {
+  height: 15vh;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > div {
+  height: 5vh;
+  width: 87%;
+  border: 2px solid #67b5c4;;
+  border-radius: 40px;
+  display: flex;
+}
+
+header > div > input {
+  font-size: 32px;
+  border: none;
+  margin-left: 5%;
+}
+
+/* einde header */
+
+
+/* begin main*/
+
+main {
+  height: auto;
+  position: relative;
+}
+main > section {
+  width: 100%;
+}
+
+main > section > article > h1 {
+  margin: 0% 0% 2% 6% ;
+  font-size: 4em;
+  color: #ffffff;
+}
+
+main > section > article > h2 {
+  margin: 8% 0% 2% 8% ;
+  font-size: 4em;
+  color: #ffffff;
+}
+
+main > section > article > p {
+  width: 70%;
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-left: 8vw;
+}
+
+main > section > article > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+main > section article > figure >  img {
+width: 97%;
+height: 90%;
+border-radius: 25px;
+}
+
+button {
+  height: 8vh;
+  width: 85vw;
+  font-size: 3em;
+  border-radius: 14px;
+  margin: 4vh;
+  background-color: #67b5c4;
+  color: #fff;
+  border: none;
+}
+
+
+.informatieHuis {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+/* Hier komt de JS styling */
+.meerInformatie {
+  display: none;
+  height: 50vh;
+}
+
+.meerInformatie > h3 {
+  font-size: 3em;
+  color: #fff;
+  margin: 2% 0% 1% 8%;
+
+}
+
+.meerInformatie > h4 {
+  font-size: 2.5em;
+  color: #fff;
+  margin: 2% 0% 1% 8%;
+
+}
+
+.meerInformatie > p {
+  margin-top: 3%;
+  margin-left: 8%;
+  font-size: 2em;
+  color: #fff;
+}
+
+.meerInformatie > div {
+  width: 100%;
+  font-size: 2.5em;
+  margin-top: 5vh;
+}
+
+.meerInformatie > div > p {
+  color: lightgray;
+}
+
+
+
+.nieuwResults{
+  display: block !important;
+  height: 50vh;
+  padding-bottom: 15vh;
+}
+
+
+/* footer {
+  height: 7vh;
+  width: 100%;
+  background-color: #2bd2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+} */
