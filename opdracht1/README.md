@@ -6,8 +6,10 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
 
 # Project titel
-Beschrijf hier je eigen project.
-En voeg een link naar je demo toe.
+Voor nu een weergaven van (1) resultaat van een zoekactie. Gebruiker heeft gezocht en dit is het resultaat.
+Een studentrental site waar gebruikers op meer informatie kunnen drukken voor meer informatie (voor nu)
+
+https://michaelchorak.github.io/frontend-voor-designers-2021/uitwerkingOpdracht1/ (mobile screen development)
 
 ## interface
 Leg de interface uit. In de demo heb je de interface design principles 04 & 11 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
