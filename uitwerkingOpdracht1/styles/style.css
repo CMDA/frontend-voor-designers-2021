@@ -39,19 +39,17 @@ header {
   align-items: center;
 }
 
-header > div {
-  height: 5vh;
-  width: 87%;
+header > input {
+  padding: 2%;
+  height: 3vh;
+  width: 85%;
   border: 2px solid #67b5c4;;
   border-radius: 40px;
   display: flex;
+  font-size: 2.5em;
 }
 
-header > div > input {
-  font-size: 32px;
-  border: none;
-  margin-left: 5%;
-}
+
 
 /* einde header */
 
