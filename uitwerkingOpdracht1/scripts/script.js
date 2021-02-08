@@ -1,9 +1,7 @@
 
 var meerInformatie = document.querySelector('.meerInformatie');
 var meerInfoBtn = document.querySelector('button');
-
-
-
+var h1 = document.querySelector('h1');
 
 
 function test(){
