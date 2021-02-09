@@ -9,10 +9,10 @@ function test(){
 
     meerInformatie.classList.toggle('nieuwResults');
 
-  if(meerInfoBtn.innerHTML === "Meer informatie") {
-    meerInfoBtn.innerHTML = "Minder weergeven";
+  if(meerInfoBtn.textContent === "Meer informatie") {
+    meerInfoBtn.textContent = "Minder informatie";
   } else {
-    meerInfoBtn.innerHTML = "Meer informatie";
+    meerInfoBtn.textContent = "Meer informatie";
   }
 
 }
