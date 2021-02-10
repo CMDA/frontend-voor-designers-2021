@@ -15,7 +15,13 @@ function test(){
     meerInfoBtn.textContent = "Meer informatie";
   }
 
+  meerInformatie.scrollIntoView({
+    behavior: 'smooth'
+  });
+  
 }
+
+
 
 
 meerInfoBtn.addEventListener('click', test);
