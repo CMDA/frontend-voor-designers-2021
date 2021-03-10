@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Laad een extern html file</title>
+      <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <main>
+      <header>
+        <h1>Laad een extern HTML file in een Section</h1>
+        <form>
+          <p>Selecteer eerst het file dat geladen moet worden:</p>
+          <label>
+            <input checked type="radio" name="link" value="https://koopreynders.github.io/frontendvoordesigners/opdracht3/XHRhtml/data.html">
+            HTML met een H1 en P. <a href="https://koopreynders.github.io/frontendvoordesigners/opdracht3/XHRhtml/data.html">data.html</a>
+          </label>
+          <label>
+            <input type="radio" name="link" value="https://koopreynders.github.io/frontendvoordesigners/opdracht3/XHRhtml/data2.html">
+            Compleet HTML file met BODY en alles. <a href="https://koopreynders.github.io/frontendvoordesigners/opdracht3/XHRhtml/data2.html">data2.html</a>
+          </label>
+
+          <button type="submit" name="submit">Laad file</button>
+        </form>
+      </header>
+      <section>
+        Section waar het HTML file gerenderd zal worden.
+      </section>
+    </main>
+
+    <footer>
+          <a href="https://github.com/KoopReynders/frontendvoordesigners/tree/master/opdracht3/XHRhtml">source code</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>

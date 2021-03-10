@@ -1,0 +1,80 @@
+{
+    "id":1,
+    "title":"Evil Dead",
+    "plot":"Five friends head to a remote cabin, where the discovery of a Book of the Dead leads them to unwittingly summon up demons living in the nearby woods. The evil presence possesses them until only one is left to fight for survival.",
+    "simple_plot":"Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons.",
+    "release_date":"5 April 2013",
+    "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/evil_dead/cover.jpg",
+    "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/evil_dead/trailer.mp4",
+    "genres":["Horror"],
+    "reviews":[
+        {
+            "id":1,
+            "score":8,
+            "movie_id":1,
+            "created_at":"2013-09-18T16:09:50.000Z",
+            "updated_at":"2013-09-18T16:09:50.000Z",
+            "review_text":null
+        },
+        {
+            "id":2,
+            "score":8,
+            "movie_id":1,
+            "created_at":"2013-09-18T16:09:50.000Z",
+            "updated_at":"2013-09-18T16:09:50.000Z",
+            "review_text":null
+        },{
+            "id":3,
+            "score":10,
+            "movie_id":1,
+            "created_at":"2013-09-18T16:09:50.000Z",
+            "updated_at":"2013-09-18T16:09:50.000Z",
+            "review_text":null
+        },
+        {
+            "id":4,
+            "score":7,
+            "movie_id":1,
+            "created_at":"2013-09-18T16:09:50.000Z",
+            "updated_at":"2013-09-18T16:09:50.000Z",
+            "review_text":null
+        }],
+    "directors":[
+        {
+            "id":3,
+            "name":"Sam Raimi",
+            "movie_id":1
+        }],
+    "actors":[
+        {
+            "id":6,"actor_name":"Bruce Campbell",
+            "movie_id":1,
+            "character":"Ashley 'Ash' J. Williams",
+            "url_character":"https://www.imdb.com/title/tt1288558/characters/nm0132257",
+            "url_photo":"https://m.media-amazon.com/images/M/MV5BOTY2MTg0OTEzOV5BMl5BanBnXkFtZTgwNzQ3NTcwMjE@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
+            "url_profile":"https://www.imdb.com/name/nm0132257/"
+        },{
+            "id":7,
+            "actor_name":"Ellen Sandweiss",
+            "movie_id":1,
+            "character":"Cheryl",
+            "url_character":"https://www.imdb.com/title/tt1288558/characters/nm0762445",
+            "url_photo":"https://m.media-amazon.com/images/M/MV5BMTI1MzA4NjQzNF5BMl5BanBnXkFtZTYwODE4MTky._V1_.jpg",
+            "url_profile":"https://www.imdb.com/name/nm0762445/"
+        },{
+            "id":8,
+            "actor_name":"Jessica Lucas",
+            "movie_id":1,
+            "character":"Olivia",
+            "url_character":"https://www.imdb.com/title/tt1288558/characters/nm1140300",
+            "url_photo":"https://m.media-amazon.com/images/M/MV5BNjI5NDA1MDYxMF5BMl5BanBnXkFtZTcwODU5NjgyMQ@@._V1_.jpg",
+            "url_profile":"https://www.imdb.com/name/nm1140300/"
+        },{
+            "id":9,
+            "actor_name":"Elizabeth Blackmore",
+            "movie_id":1,"character":"Shelly",
+            "url_character":"https://www.imdb.com/title/tt1288558/characters/nm3899933",
+            "url_photo":"https://m.media-amazon.com/images/M/MV5BNTUzODc2OWItM2M2OS00YTQyLTgyMmItYTI2N2EwOWQxODM4XkEyXkFqcGdeQXVyMjgzMTMxMTQ@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+            "url_profile":"https://www.imdb.com/name/nm3899933/"
+        }]
+}

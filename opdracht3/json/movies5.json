@@ -1,0 +1,220 @@
+{
+    "id":5,
+    "title":"The Dark Knight",
+    "plot":"Batman raises the stakes in his war on crime. With the help of Lieutenant Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the city streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as The Joker.",
+    "simple_plot":"When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.",
+    "release_date":"18 July 2008",
+    "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_dark_knight/cover.jpg",
+    "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_dark_knight/trailer.mp4",
+    "genres":
+      [
+        "Action",
+        "Adventure"
+      ],
+    "reviews":[
+      {
+        "id":17,
+        "score":8,
+        "movie_id":5,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":18,
+        "score":9,
+        "movie_id":5,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":19,
+        "score":9,
+        "movie_id":5,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":20,
+        "score":9,
+        "movie_id":5,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":21,
+        "score":8,
+        "movie_id":5,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":22,
+        "score":8,
+        "movie_id":5,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":23,
+        "score":9,
+        "movie_id":5,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":24,
+        "score":10,
+        "movie_id":5,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2014-01-25T22:01:54.000Z",
+        "review_text":"Best film, everrrrrr"
+        }
+      ],
+    "directors":[
+      {
+        "id":7,"name":"Christopher Nolan","movie_id":5}],
+    "actors":[
+      {
+        "id":54,
+        "actor_name":"Christian Bale",
+        "movie_id":5,
+        "character":"Bruce Wayne",
+        "url_character":"http://www.imdb.com/character/ch0188699",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTkxMzk4MjQ4MF5BMl5BanBnXkFtZTcwMzExODQxOA@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000288"
+      },
+      {
+        "id":55,
+        "actor_name":"Heath Ledger",
+        "movie_id":5,
+        "character":"Joker",
+        "url_character":"http://www.imdb.com/character/ch0000180",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0005132"
+      },
+      {
+        "id":56,
+        "actor_name":"Aaron Eckhart",
+        "movie_id":5,
+        "character":"Harvey Dent",
+        "url_character":"http://www.imdb.com/character/ch0308458",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTc4MTAyNzMzNF5BMl5BanBnXkFtZTcwMzQ5MzQzMg@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0001173"
+      },
+      {
+        "id":57,
+        "actor_name":"Michael Caine",
+        "movie_id":5,
+        "character":"Alfred",
+        "url_character":"http://www.imdb.com/character/ch0000204",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjAwNzIwNTQ4Ml5BMl5BanBnXkFtZTYwMzE1MTUz._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000323"
+        }
+        ,{
+          "id":58,
+          "actor_name":"Maggie Gyllenhaal",
+          "movie_id":5,
+          "character":"Rachel",
+          "url_character":"http://www.imdb.com/character/ch0150022",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTM1MjY3NzA4NF5BMl5BanBnXkFtZTcwNzE4MjMyMw@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0350454"
+        },
+        {
+          "id":59,
+          "actor_name":"Gary Oldman",
+          "movie_id":5,
+          "character":"Gordon",
+          "url_character":"http://www.imdb.com/character/ch0460543",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTc3NTM4MzQ5MV5BMl5BanBnXkFtZTcwOTE4MDczNw@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0000198"
+        },
+        {
+          "id":60,
+          "actor_name":"Morgan Freeman",
+          "movie_id":5,
+          "character":"Lucius Fox",
+          "url_character":"http://www.imdb.com/character/ch0000187",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTc0MDMyMzI2OF5BMl5BanBnXkFtZTcwMzM2OTk1MQ@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0000151"
+        },
+        {
+          "id":61,
+          "actor_name":"Monique Gabriela Curnen",
+          "movie_id":5,
+          "character":"Ramirez",
+          "url_character":"http://www.imdb.com/character/ch0117867",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjE2NTcxODA2Nl5BMl5BanBnXkFtZTcwODE1OTQ4Mg@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm1010931"
+        },
+        {
+          "id":62,
+          "actor_name":"Ron Dean",
+          "movie_id":5,
+          "character":"Wuertz",
+          "url_character":"http://www.imdb.com/character/ch0160629",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTM5MTc5MjE3OF5BMl5BanBnXkFtZTcwNzg1MjQyOA@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0212939"
+        },
+        {
+          "id":63,
+          "actor_name":"Cillian Murphy",
+          "movie_id":5,
+          "character":"Scarecrow",
+          "url_character":"http://www.imdb.com/character/ch0000186",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjAzMzYyOTMyN15BMl5BanBnXkFtZTcwMTc3MjM4OA@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0614165"
+        },
+        {
+          "id":64,
+          "actor_name":"Chin Han",
+          "movie_id":5,
+          "character":"Lau",
+          "url_character":"http://www.imdb.com/character/ch0093490",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTMxNTE2NjQ4MF5BMl5BanBnXkFtZTcwNjQ5Mjk3Mw@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm1977856"
+        },
+        {
+          "id":65,
+          "actor_name":"Nestor Carbonell",
+          "movie_id":5,
+          "character":"Mayor",
+          "url_character":"http://www.imdb.com/character/ch0058454",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTgwNzEwOTY0MF5BMl5BanBnXkFtZTcwNzE1ODAyNg@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0004801"
+        },
+        {
+          "id":66,
+          "actor_name":"Eric Roberts",
+          "movie_id":5,
+          "character":"Maroni",
+          "url_character":"http://www.imdb.com/character/ch0039109",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTQ2MTk3OTgwM15BMl5BanBnXkFtZTcwODE1OTIwMw@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0000616"
+        },
+        {
+          "id":67,
+          "actor_name":"Ritchie Coster",
+          "movie_id":5,
+          "character":"Chechen",
+          "url_character":"http://www.imdb.com/character/ch0073685",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTMxMjE2MTU5M15BMl5BanBnXkFtZTYwNTM2ODM0._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0182662"
+        },
+        {
+          "id":68,
+          "actor_name":"Anthony Michael Hall",
+          "movie_id":5,
+          "character":"Mike Engel",
+          "url_character":"http://www.imdb.com/character/ch0047368",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjE1MDk3Mzc1NV5BMl5BanBnXkFtZTYwMzE3MTM3._V1_SY44_CR8,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0001309"
+        }
+      ]
+}

@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>FvD - Opdracht 3 - Complexe functionaliteit met externe data uitwerken en testen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <main>
+      <h1>Films</h1>
+
+      <form>
+        <label>
+          <input type="radio" name=toggle value="movies1" checked>
+          Movies 1
+        </label>
+        <label>
+          <input type="radio" name=toggle value="movies2">
+          Movies 2
+        </label>
+        <label>
+          <input type="radio" name=toggle value="movies3">
+          Movies 3
+        </label>
+        <label>
+          <input type="radio" name=toggle value="movies4">
+          Movies 4
+        </label>
+        <label>
+          <input type="radio" name=toggle value="movies5">
+          Movies 5
+        </label>
+        <label>
+          <input type="radio" name=toggle value="movies6">
+          Movies 6
+        </label>
+        <button name="laadfilm">Laad film</button>
+      </form>
+      <section id=film></section>
+
+
+      <h1>Alle Films</h1>
+      <!-- Hier wordt de html geinjecteerd-->
+      <section id=movies></section>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

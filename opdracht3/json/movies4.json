@@ -1,0 +1,180 @@
+{
+    "id":4,
+    "title":"Pulp Fiction",
+    "plot":"Jules Winnfield and Vincent Vega are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace. Wallace has also asked Vincent to take his wife Mia out a few days later when Wallace himself will be out of town. Butch Coolidge is an aging boxer who is paid by Wallace to lose his next fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+    "simple_plot":"The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "release_date":"14 October 1994",
+    "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/pulp_fiction/cover.jpg",
+    "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/pulp_fiction/trailer.mp4",
+    "genres":[
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "reviews":[
+      {
+        "id":13,
+        "score":9,
+        "movie_id":4,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":14,
+        "score":9,
+        "movie_id":4,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":15,
+        "score":9,
+        "movie_id":4,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":16,
+        "score":8,
+        "movie_id":4,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      }
+    ],
+    "directors":[
+      {
+        "id":6,
+        "name":"Quentin Tarantino",
+        "movie_id":4
+      }
+    ],
+    "actors":[
+      {
+        "id":39,
+        "actor_name":"Tim Roth",
+        "movie_id":4,
+        "character":"Pumpkin / Ringo",
+        "url_character":"http://www.imdb.com/character/ch0001786",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjA5NTA3MDQyOV5BMl5BanBnXkFtZTcwODM4NDE3Mw@@._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000619"
+      },
+      {
+        "id":40,
+        "actor_name":"Amanda Plummer",
+        "movie_id":4,
+        "character":"Honey Bunny / Yolanda",
+        "url_character":"http://www.imdb.com/character/ch0001792",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BOTQ2ODAzNzc5M15BMl5BanBnXkFtZTgwOTU2ODE3MjE@._V1_SY44_CR17,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0001625"
+      },
+      {
+        "id":41,
+        "actor_name":"Laura Lovelace",
+        "movie_id":4,"character":"Waitress",
+        "url_character":"http://www.imdb.com/character/ch0186502",
+        "url_photo":"","url_profile":"http://www.imdb.com/name/nm0522503"
+      },
+      {
+        "id":42,
+        "actor_name":"John Travolta",
+        "movie_id":4,
+        "character":"Vincent Vega",
+        "url_character":"http://www.imdb.com/character/ch0001782",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTUwNjQ0ODkxN15BMl5BanBnXkFtZTcwMDc5NjQwNw@@._V1_SY44_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000237"
+      },
+      {
+        "id":43,
+        "actor_name":"Samuel L. Jackson",
+        "movie_id":4,
+        "character":"Jules Winnfield",
+        "url_character":"http://www.imdb.com/character/ch0001783",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTQ1NTQwMTYxNl5BMl5BanBnXkFtZTYwMjA1MzY1._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000168"
+      }
+      ,{
+        "id":44,
+        "actor_name":"Phil LaMarr",
+        "movie_id":4,
+        "character":"Marvin",
+        "url_character":"http://www.imdb.com/character/ch0001791",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTczMzY0MDk2Ml5BMl5BanBnXkFtZTcwMDY2NTIzMg@@._V1_SY44_CR17,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0482851"
+      },
+      {
+        "id":45,
+        "actor_name":"Frank Whaley",
+        "movie_id":4,
+        "character":"Brett",
+        "url_character":"http://www.imdb.com/character/ch0001793",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BNzkyODAyMDA1N15BMl5BanBnXkFtZTcwOTEyNDk0OQ@@._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0001844"
+      },
+      {
+        "id":46,
+        "actor_name":"Burr Steers",
+        "movie_id":4,
+        "character":"Roger",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjEwMjYyNjEwN15BMl5BanBnXkFtZTcwMTI1Nzc2Mw@@._V1_SX32_CR0,0,32,44_AL_.jpg","url_profile":"http://www.imdb.com/name/nm0824882"},{"id":47,"actor_name":"Bruce Willis","movie_id":4,"character":"Butch Coolidge","url_character":"http://www.imdb.com/character/ch0001781","url_photo":"http://ia.media-imdb.com/images/M/MV5BMjA0MjMzMTE5OF5BMl5BanBnXkFtZTcwMzQ2ODE3Mw@@._V1_SY44_CR2,0,32,44_AL_.jpg","url_profile":"http://www.imdb.com/name/nm0000246"
+        },
+        {
+          "id":48,
+          "actor_name":"Ving Rhames",
+          "movie_id":4,
+          "character":"Marsellus Wallace",
+          "url_character":"http://www.imdb.com/character/ch0001789",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTMwMTgyMzc4MV5BMl5BanBnXkFtZTYwNjE5Mjk1._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0000609"
+          },
+          {
+            "id":49,
+            "actor_name":"Paul Calderon",
+            "movie_id":4,
+            "character":"Paul / English Bob",
+            "url_character":"http://www.imdb.com",
+            "url_photo":"http://ia.media-imdb.com/images/M/MV5BNDY2NzY5MDI5Nl5BMl5BanBnXkFtZTcwNDIzNjMzMw@@._V1_SY44_CR17,0,32,44_AL_.jpg",
+            "url_profile":"http://www.imdb.com/name/nm0129538"
+            },
+            {
+              "id":50,
+              "actor_name":"Bronagh Gallagher",
+              "movie_id":4,
+              "character":"Trudi",
+              "url_character":"http://www.imdb.com/character/ch0001797",
+              "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjE4OTc2MTM4OF5BMl5BanBnXkFtZTcwMTY3MjQ1Mw@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+              "url_profile":"http://www.imdb.com/name/nm0302345"
+            },
+            {
+              "id":51,
+              "actor_name":"Rosanna Arquette",
+              "movie_id":4,
+              "character":"Jody",
+              "url_character":"http://www.imdb.com/character/ch0001790",
+              "url_photo":"http://ia.media-imdb.com/images/M/MV5BNTI0MjYxMzQ0OF5BMl5BanBnXkFtZTcwMTk0OTE3NQ@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+              "url_profile":"http://www.imdb.com/name/nm0000275"
+            },
+            {
+              "id":52,
+              "actor_name":"Eric Stoltz",
+              "movie_id":4,
+              "character":"Lance",
+              "url_character":"http://www.imdb.com/character/ch0001788",
+              "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTc1Njc5MjQyOF5BMl5BanBnXkFtZTYwNzQzNzgz._V1_SX32_CR0,0,32,44_AL_.jpg",
+              "url_profile":"http://www.imdb.com/name/nm0000655"
+            },
+            {
+              "id":53,
+              "actor_name":"Uma Thurman",
+              "movie_id":4,
+              "character":"Mia Wallace",
+              "url_character":"http://www.imdb.com/character/ch0001785",
+              "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjMxNzk1MTQyMl5BMl5BanBnXkFtZTgwMDIzMDEyMTE@._V1_SX32_CR0,0,32,44_AL_.jpg",
+              "url_profile":"http://www.imdb.com/name/nm0000235"
+            }
+          ]
+}

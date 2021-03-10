@@ -1,0 +1,122 @@
+{
+    "id":6,
+    "title":"Fight Club",
+    "plot":"A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+    "simple_plot":"An insomniac office worker looking for a way to change his life crosses paths with a devil-may-care soap maker and they form an underground fight club that evolves into something much, much more...",
+    "release_date":"15 October 1999",
+    "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/fight_club/cover.jpg",
+    "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/fight_club/trailer.mp4",
+    "genres":[
+      "Drama"
+    ],
+    "reviews":[
+
+    ],
+    "directors":[
+      {
+        "id":8,
+        "name":"David Fincher",
+        "movie_id":6
+      }
+    ],
+    "actors":[
+      {
+        "id":69,
+        "actor_name":"Edward Norton",
+        "movie_id":6,"character":"The Narrator",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTYwNjQ5MTI1NF5BMl5BanBnXkFtZTcwMzU5MTI2Mw@@._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0001570"
+      },
+      {
+        "id":70,
+        "actor_name":"Brad Pitt",
+        "movie_id":6,
+        "character":"Tyler Durden",
+        "url_character":"http://www.imdb.com/character/ch0001854",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjA1MjE2MTQ2MV5BMl5BanBnXkFtZTcwMjE5MDY0Nw@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000093"
+      },
+      {
+        "id":71,
+        "actor_name":"Helena Bonham Carter",
+        "movie_id":6,
+        "character":"Marla Singer",
+        "url_character":"http://www.imdb.com/character/ch0001857",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTUzMzUzMDg5MV5BMl5BanBnXkFtZTcwMDA5NDMwNA@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000307"
+      },
+      {
+        "id":72,
+        "actor_name":"Meat Loaf",
+        "movie_id":6,
+        "character":"Robert 'Bob' Paulsen",
+        "url_character":"http://www.imdb.com/character/ch0001858",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTIzNTQ4MjYyOV5BMl5BanBnXkFtZTcwNzgwNTEzMg@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0001533"
+      },
+      {
+        "id":73,
+        "actor_name":"Zach Grenier",
+        "movie_id":6,
+        "character":"Richard Chesler",
+        "url_character":"http://www.imdb.com/character/ch0001861",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BNDc4MTcyNjE3M15BMl5BanBnXkFtZTgwODI1MDU2MTE@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0340260"
+      }
+      ,{
+        "id":74,
+        "actor_name":"Richmond Arquette",
+        "movie_id":6,
+        "character":"Intern",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjI0MTUwMDUxNF5BMl5BanBnXkFtZTgwNjAzNTM0MDE@._V1_SY44_CR3,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0037118"
+      },
+      {
+        "id":75,
+        "actor_name":"David Andrews",
+        "movie_id":6,
+        "character":"Thomas",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTcwNTI4OTk3MF5BMl5BanBnXkFtZTcwOTQyMzI3OQ@@._V1_SY44_CR17,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0028625"
+      },
+      {
+        "id":76,
+        "actor_name":"George Maguire",
+        "movie_id":6,
+        "character":"Group Leader",
+        "url_character":"http://www.imdb.com/character/ch0214202",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTM1NzQ4MjY5OF5BMl5BanBnXkFtZTcwNjA3MjM2NA@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0536574"
+      },
+      {
+        "id":77,
+        "actor_name":"Eugenie Bondurant",
+        "movie_id":6,
+        "character":"Weeping Woman",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjI1NDk4MjQ5M15BMl5BanBnXkFtZTgwMTI1MDM2MTE@._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0094163"
+      },
+      {
+        "id":78,
+        "actor_name":"Christina Cabot",
+        "movie_id":6,
+        "character":"Group Leader",
+        "url_character":"http://www.imdb.com/character/ch0214202",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjE3OTExODMwM15BMl5BanBnXkFtZTcwMDk4MzI0Mg@@._V1_SY44_CR17,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0127680"
+      },
+      {
+        "id":79,
+        "actor_name":"Sydney 'Big Dawg' Colston",
+        "movie_id":6,
+        "character":"Speaker",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTU2NjMxMDcwMV5BMl5BanBnXkFtZTcwMTI4MjMzMQ@@._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0173257"
+      }
+    ]
+}

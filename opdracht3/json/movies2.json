@@ -1,0 +1,186 @@
+{
+    "id":2,
+    "title":"The Shawshank Redemption",
+    "plot":"Andy Dufresne is a young and successful banker whose life changes drastically when he is convicted and sentenced to life imprisonment for the murder of his wife and her lover. Set in the 1940's, the film shows how Andy, with the help of his friend Red, the prison entrepreneur, turns out to be a most unconventional prisoner. Written by Martin Lewison",
+    "simple_plot":"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "release_date":"14 October 1994",
+    "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_shawshank_redemption/cover.jpg",
+    "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_shawshank_redemption/trailer.mp4",
+    "genres":["Crime","Drama"],
+    "reviews":[
+      {
+        "id":5,
+        "score":9,
+        "movie_id":2,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":6,
+        "score":9,
+        "movie_id":2,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":7,
+        "score":10,
+        "movie_id":2,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":8,
+        "score":10,
+        "movie_id":2,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      }
+    ],
+    "directors":[
+      {
+        "id":4,
+        "name":"Frank Darabont",
+        "movie_id":2
+      }
+    ],
+    "actors":[
+      {
+        "id":10,
+        "actor_name":"Tim Robbins",
+        "movie_id":2,
+        "character":"Andy Dufresne",
+        "url_character":"http://www.imdb.com/character/ch0001388",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTI1OTYxNzAxOF5BMl5BanBnXkFtZTYwNTE5ODI4._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000209"
+      },
+      {
+        "id":11,
+        "actor_name":"Morgan Freeman",
+        "movie_id":2,
+        "character":"Ellis Boyd 'Red' Redding",
+        "url_character":"http://www.imdb.com/character/ch0001387",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTc0MDMyMzI2OF5BMl5BanBnXkFtZTcwMzM2OTk1MQ@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000151"
+      },
+      {
+        "id":12,
+        "actor_name":"Bob Gunton",
+        "movie_id":2,
+        "character":"Warden Norton",
+        "url_character":"http://www.imdb.com/character/ch0001391",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTc3MzY0MTQzM15BMl5BanBnXkFtZTcwMTM0ODYxNw@@._V1_SY44_CR11,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0348409"
+      },
+      {
+        "id":13,
+        "actor_name":"William Sadler",
+        "movie_id":2,"character":"Heywood",
+        "url_character":"http://www.imdb.com/character/ch0001390",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTA1NjU3NDg1MTheQTJeQWpwZ15BbWU2MDI4OTcxMw@@._V1_SY44_CR2,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0006669"
+      },
+      {
+        "id":14,
+        "actor_name":"Clancy Brown",
+        "movie_id":2,
+        "character":"Captain Hadley",
+        "url_character":"http://www.imdb.com/character/ch0001389",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTUxODY3NjAzMF5BMl5BanBnXkFtZTcwMTQ5MjYwNg@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000317"
+      },
+      {
+        "id":15,
+        "actor_name":"Gil Bellows",
+        "movie_id":2,
+        "character":"Tommy",
+        "url_character":"http://www.imdb.com/character/ch0001392",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjA1MDQxMDU4Nl5BMl5BanBnXkFtZTcwMTA2MTE3Mw@@._V1_SY44_CR11,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0004743"
+      },
+      {
+        "id":16,
+        "actor_name":"Mark Rolston",
+        "movie_id":2,
+        "character":"Bogs Diamond",
+        "url_character":"http://www.imdb.com/character/ch0028188",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTk2NDc0MTUxNV5BMl5BanBnXkFtZTcwMDUzMjE5Mg@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0001679"
+      },
+      {
+        "id":17,
+        "actor_name":"James Whitmore",
+        "movie_id":2,
+        "character":"Brooks Hatlen",
+        "url_character":"http://www.imdb.com/character/ch0001393",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTg5MzkxMTkxOV5BMl5BanBnXkFtZTcwNTEzNTgxMw@@._V1_SY44_CR3,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0926235"
+      },
+      {
+        "id":18,
+        "actor_name":"Jeffrey DeMunn",
+        "movie_id":2,
+        "character":"1946 D.A.",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTQ0Mjc3NDA1OV5BMl5BanBnXkFtZTcwMTg3MDEyOA@@._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0218810"
+      },
+      {
+        "id":19,
+        "actor_name":"Larry Brandenburg",
+        "movie_id":2,"character":"Skeet",
+        "url_character":"http://www.imdb.com/character/ch0455157",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjI0Mzc0MzY5Ml5BMl5BanBnXkFtZTcwNDA1NTU4Nw@@._V1_SY44_CR3,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0104594"
+      },
+      {
+        "id":20,
+        "actor_name":"Neil Giuntoli",
+        "movie_id":2,
+        "character":"Jigger",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjI0OTUxNjIyNF5BMl5BanBnXkFtZTcwNDE0MDcwOA@@._V1_SY44_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0321358"
+      },
+      {
+        "id":21,
+        "actor_name":"Brian Libby",
+        "movie_id":2,
+        "character":"Floyd",
+        "url_character":"http://www.imdb.com/character/ch0001394",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjI2NDYwNzU0NV5BMl5BanBnXkFtZTcwMjYwMTcwOA@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0508742"
+      },
+      {
+        "id":22,
+        "actor_name":"David Proval",
+        "movie_id":2,
+        "character":"Snooze",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjAxNjc4NDg2MF5BMl5BanBnXkFtZTcwNTA1NzE3MQ@@._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0698998"
+      },
+      {
+        "id":23,
+        "actor_name":"Joseph Ragno",
+        "movie_id":2,
+        "character":"Ernie",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTQyNzMyNTUwNV5BMl5BanBnXkFtZTcwNjQ2MTcwOA@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0706554"
+      },
+      {
+        "id":24,
+        "actor_name":"Jude Ciccolella",
+        "movie_id":2,
+        "character":"Guard Mert",
+        "url_character":"http://www.imdb.com",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTY4NTExMTg3M15BMl5BanBnXkFtZTgwNTQ0ODAyMTE@._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0161980"
+        }
+      ]
+  }

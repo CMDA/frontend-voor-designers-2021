@@ -1,0 +1,64 @@
+body{
+  margin: 2em;
+}
+main {
+    font: normal 1em/1.4 helvetica;
+  /* border-radius: 1em; */
+    /* box-shadow: 3px 3px 3px 3px #ccc; */
+}
+footer{
+  background: #eee;
+  color: #666;
+  padding: 2em;
+  margin: 4em -2em;
+}
+footer a {
+  color: #666;
+}
+
+form {
+  margin: 2em 0;
+}
+button, label{
+  display: block;
+}
+button {
+    font: normal 1em/1.4 helvetica;
+    padding: 0.4em 1em;
+    margin: 1em 0;
+    background: white;
+    border: 1px solid #999;
+    box-shadow: 4px 4px 4px -2px #999;
+}
+button:hover {
+  border-color: black;
+  background: lightyellow;
+  transform: scale(1.1);
+  box-shadow: 6px 6px 8px -2px #333;
+  /transition: 0.2s all linear;
+}
+button:active{
+  color: black;
+  transform: scale(0.9);
+  box-shadow: 1px 1px 4px 2px #333;
+}
+input {
+  appearance: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  top: 4px;
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+}
+input:checked {
+  border: 6px solid black;
+}
+
+section {
+  max-width: 28em;
+  margin: 1em;
+  padding: 1em;
+  background: lightyellow;
+}

@@ -1,0 +1,182 @@
+{
+    "id":3,
+    "title":"The Godfather",
+    "plot":"The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding with his wife Carmela. His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. Through Michael's life the nature of the family business becomes clear. The business of the family is just like the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family. Don Vito lives his life in the way of the old country, but times are changing and some don't want to follow the old ways and look out for community and family. An up and coming rival of the Corleone family wants to start selling drugs in New York, and needs the Don's influence to further his plan. The clash of the Don's fading old world values and the new ways will demand a terrible price, especially from Michael, all for the sake of the family.",
+    "simple_plot":"The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "release_date":"24 March 1972",
+    "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_godfather/cover.jpg",
+    "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_godfather/trailer.mp4",
+    "genres":[
+      "Crime",
+      "Drama"
+    ],
+    "reviews":[
+      {
+        "id":9,
+        "score":9,
+        "movie_id":3,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":10,
+        "score":9,
+        "movie_id":3,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":11,
+        "score":10,
+        "movie_id":3,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+      },
+      {
+        "id":12,
+        "score":9,
+        "movie_id":3,
+        "created_at":"2013-09-18T16:09:50.000Z",
+        "updated_at":"2013-09-18T16:09:50.000Z",
+        "review_text":null
+        }
+      ],
+    "directors":[
+      {
+        "id":5,
+        "name":"Francis Ford Coppola",
+        "movie_id":3
+        }
+      ],
+    "actors":[
+      {
+        "id":25,
+        "actor_name":"Marlon Brando",
+        "movie_id":3,
+        "character":"Don Vito Corleone",
+        "url_character":"http://www.imdb.com/character/ch0000791",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTg3MDYyMDE5OF5BMl5BanBnXkFtZTcwNjgyNTEzNA@@._V1_SY44_CR12,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000008"
+      },
+      {
+        "id":26,
+        "actor_name":"Al Pacino",
+        "movie_id":3,
+        "character":"Michael Corleone",
+        "url_character":"http://www.imdb.com/character/ch0000790",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTQzMzg1ODAyNl5BMl5BanBnXkFtZTYwMjAxODQ1._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000199"
+      },
+      {
+        "id":27,
+        "actor_name":"James Caan",
+        "movie_id":3,
+        "character":"Sonny Corleone",
+        "url_character":"http://www.imdb.com/character/ch0262983",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTI5NjkyNDQ3NV5BMl5BanBnXkFtZTcwNjY5NTQ0Mw@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0001001"
+      },
+      {
+        "id":28,
+        "actor_name":"Richard S. Castellano",
+        "movie_id":3,
+        "character":"Clemenza",
+        "url_character":"http://www.imdb.com/character/ch0000812",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjI2MzA3MjQ5N15BMl5BanBnXkFtZTcwMzY5NDYwOA@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0144710"
+      },
+      {
+        "id":29,
+        "actor_name":"Robert Duvall",
+        "movie_id":3,
+        "character":"Tom Hagen",
+        "url_character":"http://www.imdb.com/character/ch0000792",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjk1MjA2Mjc2MF5BMl5BanBnXkFtZTcwOTE4MTUwMg@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000380"
+      },
+      {
+        "id":30,
+        "actor_name":"Sterling Hayden",
+        "movie_id":3,
+        "character":"Capt. McCluskey",
+        "url_character":"http://www.imdb.com/character/ch0000808",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjE0MTk1NjkzN15BMl5BanBnXkFtZTcwMzA1MjE1Mg@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0001330"
+      },
+      {
+        "id":31,
+        "actor_name":"John Marley",
+        "movie_id":3,
+        "character":"Jack Woltz",
+        "url_character":"http://www.imdb.com/character/ch0000817",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjk0NjY1MjAyMl5BMl5BanBnXkFtZTcwNzY5NDYwOA@@._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0549134"
+      },
+      {
+        "id":32,
+        "actor_name":"Richard Conte",
+        "movie_id":3,
+        "character":"Barzini",
+        "url_character":"http://www.imdb.com/character/ch0284602",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BNzE0MzU0MzY3OF5BMl5BanBnXkFtZTcwMjE2MjYwOA@@._V1_SY44_CR1,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0002017"
+      },
+      {
+        "id":33,
+        "actor_name":"Al Lettieri",
+        "movie_id":3,
+        "character":"Sollozzo",
+        "url_character":"http://www.imdb.com/character/ch0395467",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjA0NDI4MzIwMV5BMl5BanBnXkFtZTcwNjgwMDM1NA@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0504803"
+      },
+      {
+        "id":34,
+        "actor_name":"Diane Keaton",
+        "movie_id":3,
+        "character":"Kay Adams",
+        "url_character":"http://www.imdb.com/character/ch0000793",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BNjU5NjMwOTk2NV5BMl5BanBnXkFtZTYwODg1NzY0._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0000473"
+      },
+      {
+        "id":35,
+        "actor_name":"Abe Vigoda",
+        "movie_id":3,
+        "character":"Tessio",
+        "url_character":"http://www.imdb.com/character/ch0000806",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMjE1MDk5NzMyN15BMl5BanBnXkFtZTYwMjA4Mjg1._V1_SY44_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0001820"
+      },
+      {
+        "id":36,
+        "actor_name":"Talia Shire",
+        "movie_id":3,
+        "character":"Connie",
+        "url_character":"http://www.imdb.com/character/ch0440490",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTkwMzc0NjQzNV5BMl5BanBnXkFtZTYwNzM0NTk3._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0001735"
+      },
+      {
+        "id":37,
+        "actor_name":"Gianni Russo",
+        "movie_id":3,
+        "character":"Carlo",
+        "url_character":"http://www.imdb.com/character/ch0463791",
+        "url_photo":"http://ia.media-imdb.com/images/M/MV5BNTgyMTgxODM4MV5BMl5BanBnXkFtZTcwNDg5NDYwOA@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "url_profile":"http://www.imdb.com/name/nm0751625"
+        }
+        ,{
+          "id":38,
+          "actor_name":"John Cazale",
+          "movie_id":3,
+          "character":"Fredo",
+          "url_character":"http://www.imdb.com/character/ch0000801",
+          "url_photo":"http://ia.media-imdb.com/images/M/MV5BMTUzMTM1MjI5NV5BMl5BanBnXkFtZTcwMTM5NTM1Mw@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+          "url_profile":"http://www.imdb.com/name/nm0001030"
+        }
+      ]
+}
