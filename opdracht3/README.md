@@ -22,10 +22,86 @@ IN de demo heb je een aantal states van de [UI stack](https://www.scotthurff.com
 
 
 ## code
+Eerst selecteren we een aantal elementen vanuit de DOM die we kunnen manipuleren
 ```javascript
 const h2 = document.querySelector('h2');
 const name = document.querySelector('#name');
 const imageTest = document.querySelector('#imgTest');
 const randomBtn = document.querySelector('#randomBtn')
 const intro = document.querySelector('main > section:first-of-type > article:first-of-type');
+```
+Daarna heb ik een scroll event toegepast, dus ik moest even weten waar ik mijzelf bevond
+```javascript
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY;
+  const scrollable = document.documentElement.scrollHeight - window.innerheight;
+  // console.log(scrolled);
+});
+```
+We laten de scroll Y positie zien en op basis daar van laat ik elementen invliegen.
+
+Zodra de window is geladen laat ik een functie afspelen
+```javascript
+window.onload = function(){
+  window.addEventListener('scroll', scrollEffect);
+
+  function scrollEffect(){
+    if(window.scrollY <= 400){
+      intro.style.opacity = '0'
+      intro.style.transform = 'translateX(-100vw)'
+    } else {
+      intro.style.opacity = '1';
+      intro.style.transition = '1.5s ease-in-out';
+      intro.style.transform = 'translateX(0vw)'
+    }
+  }
+}
+```
+Deze functie laat intro invliegen vanaf de 400px, als < 400, dan is de opacity 0 en uit beeld
+
+Nu moeten we een json call maken om data in te laden
+```javascript
+let requestURL = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Alcoholic';
+let requestMoreInfo = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=";
+let request = new XMLHttpRequest();
+request.open('GET', requestURL);
+
+//geef terug als JSON
+request.responseType ='json';
+request.send();
+```
+Ik geef een request url mee, en ik open daarna een nieuwe XMLHttpRequest, daarna wordt de request opengehaald en met een GET functie haalt hij de data op van de requested url
+Als response type geef ik aan json en als laatst verstuur ik de get request en komt de data binnen.
+
+
+```javascript
+request.onload = function() {
+  const allDrinks =  request.response;
+  console.log(allDrinks);
+  console.log(allDrinks.drinks.length);
+
+  // test.innerHTML = drinks.drinks[2].strDrink;
+  // imageTest.src = drinks.drinks[2].strDrinkThumb;
+document.body.onkeyup = async function giveRandomDrink(e){
+  //laat de functie uitgevoerd worden dmv een key (spacebar atm)
+  if(e.keyCode === 32) {
+
+    const randomItem = allDrinks.drinks[Math.floor(Math.random() * allDrinks.drinks.length)];
+    name.innerHTML = randomItem.strDrink;
+    imageTest.src = randomItem.strDrinkThumb;
+
+
+    //De zoekveld zal gevuld worden met de naam van het drankje
+    const moreInfo = requestMoreInfo + randomItem.strDrink;
+
+      //we halen meer informatie over het drankje binnen door een 2e call te maken obv naam
+      let a = await fetch(moreInfo)
+        .then(res => res.json())
+        .then(data => console.log(data))
+
+        //returns een promise...
+      }
+      randomBtn.addEventListener('click', giveRandomDrink);
+    }
+  }
 ```
