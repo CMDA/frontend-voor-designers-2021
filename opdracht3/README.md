@@ -116,37 +116,57 @@ request.onload = function() {
   const allDrinks =  request.response;
   console.log(allDrinks);
   console.log(allDrinks.drinks.length);
-
-  // test.innerHTML = drinks.drinks[2].strDrink;
-  // imageTest.src = drinks.drinks[2].strDrinkThumb;
-document.body.onkeyup = async function giveRandomDrink(e){
-  //laat de functie uitgevoerd worden dmv een key (spacebar atm)
-  if(e.keyCode === 32) {
+function giveRandomDrink() {
+    //laat de functie uitgevoerd worden dmv een key (spacebar atm)
 
     const randomItem = allDrinks.drinks[Math.floor(Math.random() * allDrinks.drinks.length)];
     name.innerHTML = randomItem.strDrink;
     imageTest.src = randomItem.strDrinkThumb;
 
-
     //De zoekveld zal gevuld worden met de naam van het drankje
     const moreInfo = requestMoreInfo + randomItem.strDrink;
 
-      //we halen meer informatie over het drankje binnen door een 2e call te maken obv naam
-      let a = await fetch(moreInfo)
-        .then(res => res.json())
-        .then(data => console.log(data))
+    const moreButton = document.createElement('button');
+    name.appendChild(moreButton);
+    moreButton.setAttribute('id', 'styleABtn');
 
-        //returns een promise...
+    moreButton.innerHTML = 'More information'
+    //maak een 2e request voor specifieke infomatie
+    let request2 = new XMLHttpRequest();
+    request2.open('GET', moreInfo);
+
+    request2.responseType = 'json';
+    request2.send();
+
+    request2.onload = function() {
+      const specificDrink = request2.response;
+      console.log(specificDrink);
+      console.log(specificDrink.drinks[0].strGlass);
+
+      const ingredients = [specificDrink.drinks[0].strIngredient1,
+        specificDrink.drinks[0].strIngredient2,
+        specificDrink.drinks[0].strIngredient3,
+        specificDrink.drinks[0].strIngredient4,
+        specificDrink.drinks[0].strIngredient5
+      ];
+
+      ingredientsList.innerHTML = ingredients;
+      instructions.innerHTML = specificDrink.drinks[0].strInstructions;
+
+
+      function specificDrinkInformation() {
+        informationSection.classList.add('showInformationSection');
       }
-      randomBtn.addEventListener('click', giveRandomDrink);
+
+      function closeSpecificDrinkInformation(){
+        informationSection.classList.remove('showInformationSection');
+      }
+        moreButton.addEventListener('click', specificDrinkInformation);
+        closeInfo.addEventListener('click', closeSpecificDrinkInformation);
     }
+
   }
+  randomBtn.addEventListener('click', giveRandomDrink);
+}
+
 ```
-
-Weer een onload function, eerst gooien we de response in een variable, deze log ik graag om te zien wat ik terug krijg, in dit geval alle 100 drankjes en de cijfer 100 omdat dat de length is. Daarna maak ik een andere functie in de functie, die werkt op keyEvents, 32 is in dit geval de spatiebar. 
-Om een random item te pakken uit de array moeten we een Math.floor-Math.random functie uitvoeren en dat gaat op basis van de 100 drankjes die in de array zitten.
-De drankjes hebben 2 waardes, de strDrink(naam) en strDrinkThumb(thumbnail). Die plaats ik in 2 elementen die eerder zijn opgenoemd. 
-
-Om meer informatie over het drankje te krijgen moet ik een url maken die de naam. Ik heb eerder al ```javascript let requestMoreInfo = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=";```
-gemaakt en daar achter moet ik de naam van het drankje plaatsen, als je daar heen gaat krijg je meer specifieke data over het drankje. 
-Daarna wil ik met een fetch methode de data binnenhalen. Ik krijg die binnen als een array met inderdaad meer informatie maar ik kan het niet bereiken.
