@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font: 'Yeseva One', cursive;
+}
+
+h1,h2,h3,h4,h5,p {
+  font-family: var(--main-font);
+}
+
+header {
+  height: 80vh;
+  width: 100%;
+  background-color: gray;
+  background-image: url('images/drinksBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: var(--main-font);
+  position: relative;
+  font-size: 2.5em;
+}
+
+header::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+header>h1,p {
+  z-index: 1;
+  font-family: var(--main-font);
+}
+
+
+main > section:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100%;
+}
+
+main > section:first-of-type > article:first-child {
+font-size: 2em;
+margin-top: 5%;
+}
+
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 40px;
+  height: 60vh;
+  /* border: 1px solid; */
+}
+.cardContainer>div {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 22px -28px rgba(0,0,0,0.75);
+}
+
+
+.cardContainer>div:hover {
+  background-color: lightgray;
+  font-size: 1.2em;
+  transition: 1s;
+}
+
+.cardContainer > div > img {
+  width: 20%;
+}
+
+#imgTest {
+  max-width: 20%;
+}
+
+section:nth-of-type(2){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  padding-bottom: 15%;
+  position: relative;
+}
+
+#randomBtn {
+  margin-top: 3%;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  font-family: var(--main-font);
+  padding: 1%;
+  height: 5%;
+  width: 40%;
+  border-radius: 5px;
+  font-size: 2em;
+  outline: none;
+}
+
+#meerInfoBtn {
+  margin-top: 3%;
+  border: none;
+  color: #fff;
+  background-color: #82ace5;
+  font-family: var(--main-font);
+  padding: 1%;
+  height: 1%;
+  width: 15%;
+  border-radius: 5px;
+  font-size: 1em;
+  outline: none;
+}
+
+#meerInfoBtn:hover {
+  background-color: #fff;
+  color: #82ace5;
+  border: 1px solid;
+  transition: 1s;
+
+}
+#randomBtn:hover {
+  background-color: lightgray;
+  color: #000;
+  transition: 1s;
+}
+
+h3 {
+  font-size: 3em;
+  margin-top: 3%;
+}
+
+#meerInstructies {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+  border: 1px solid;
+  opacity: 0;
+  visibility: hidden
+}
+
+#meerInfoBtn {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.meerInstructies {
+  visibility: visible !important;
+  opacity: 1 !important;
+  background-color: gray;
+  transition: 1s;
+}
