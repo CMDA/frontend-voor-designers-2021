@@ -117,7 +117,6 @@ request.onload = function() {
   console.log(allDrinks);
   console.log(allDrinks.drinks.length);
 function giveRandomDrink() {
-    //laat de functie uitgevoerd worden dmv een key (spacebar atm)
 
     const randomItem = allDrinks.drinks[Math.floor(Math.random() * allDrinks.drinks.length)];
     name.innerHTML = randomItem.strDrink;
@@ -170,3 +169,13 @@ function giveRandomDrink() {
 }
 
 ```
+Als eerst zorgen we dat we een random item uit de array halen met ene Math.Random function. 
+Daarna gebruiken we de data om de naam en en afbeelding te laten zien d.m.v. DOM manipulatie.
+Daarna is er een knop die tevens een button aanmaakt als er eenmaal op wordt geklikt en die geven we een attribuut mee zodat we daar later mee kunnen werken.
+
+Vervolgens maken we een 2e call op basis van de de 1e call en zodoende halen we meer informatie binnen en gebruik ik deze om een 'more information' pagina te maken.
+
+Eerst maak ik een array en die vul ik met de data die van de call meekomen, vervolgens vul ik de gedecladeerde variabeles met die waardes en kan ik die aan de voorkant laten zien. 
+
+Daarna voeg ik een Eventlistener toe op de 'more information' button, nu wordt er een section getoond die gevuld is met meer informatie over het specifieke drankje.
+Daar voeg ik een 'close' button aan toe. Die removed de class van de section en zo kunnen de gebruikers weer door naar het volgende drankje. 
