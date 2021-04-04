@@ -13,14 +13,41 @@ In de demo heb je interface design principles 04, 08, 09 & 11 van [Principles of
 
 04: Keep users in control
 
-08:Provide a natural next step
+Gebruikers hebben bij mijn concept alle controle, Ik heb de optie gegeven om eventueel meer informatie te laten zien, dit wordt niet geforceerd. 
+Naast dat kunnen ze het makkelijk sluiten voor de opvallende 'close' button en kunnnen ze zo weer door naar het volgende drankje.
+
+08:Provide a natural next 
+
+Ik laat pas een 'more information' button zien als de gebruiker daadwerkelijk op de knop drukt. Voordat er een drankje verschijnt, is er geen next step omdat die er niet is. Die wordt pas weergeven bij het laten zien van een drankje. 
 
 09: Appearance follows behavior
 
+Mijn applicatie werkt voornamelijk met buttons. Buttons heb ik de look & feel van buttons gegeven die gebruikers gewend zijn.  Ook het 'sluiten' button ziet er herkenbaar uit en werkt volgens zijn bekendheid. 
+
 11: Strong visual hierachie works best
 
-In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?
+Ik begin met een duidelijke H1 header, die direct laat weten waarvoor de gebruiker de site bezoekt.  De minder belangrijke teksten, maar die wel een link hebben heb ik in de buurt geplaatst van de H1. Minder opvallend, omdat het minder belangrijk is. 
 
+In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?
+Ik heb de scroll event toegepast,
+
+```javascript
+window.onload = function() {
+  window.addEventListener('scroll', scrollEffect);
+
+  function scrollEffect() {
+    if (window.scrollY <= 400) {
+      intro.style.opacity = '0'
+      intro.style.transform = 'translateX(-100vw)'
+    } else {
+      intro.style.opacity = '1';
+      intro.style.transition = '1.5s ease-in-out';
+      intro.style.transform = 'translateX(0vw)'
+    }
+  }
+}```
+
+Zodra de gebruiker 400 pixels  naar beneden gescrolled is laat ik een functie uitvoeren, in dit geval laat ik een section invliegen die extra content toevoegd aan de pagina.
 
 
 
