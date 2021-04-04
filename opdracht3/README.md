@@ -48,7 +48,8 @@ window.onload = function() {
       intro.style.transform = 'translateX(0vw)'
     }
   }
-}```
+}
+```
 
 Zodra de gebruiker 400 pixels  naar beneden gescrolled is laat ik een functie uitvoeren, in dit geval laat ik een section invliegen die extra content toevoegd aan de pagina.
 
