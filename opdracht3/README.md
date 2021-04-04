@@ -1,7 +1,7 @@
 # JSON
 Learning working with JSON data
 
-### Visit the site:
+### Visit the site: https://michaelchorak.github.io/frontend-voor-designers-2021/opdracht3/
 
 # Frontend voor Designers - opdracht 3: Een interactie uitwerken met externe data
 
