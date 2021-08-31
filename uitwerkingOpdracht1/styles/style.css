@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3, h4{
+  font-size: 3em;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+h5 {
+  font-size: 2em;
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  font-size: 36px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 100;
+
+}
+
+h2 {
+  font-size: 4.5em;
+  font-family: 'Rubik', sans-serif;
+  width: 30%;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 3em;
+}
+
+header {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+}
+
+header > p {
+  margin-left: 5%;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+main > section:first-of-type {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+/* //container voor de cards */
+main > section > div:first-of-type {
+  width: 90vw;
+  height: 100%;
+  border-radius: 100px;
+}
+/* div voor de 2 figures */
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+
+/* voeg deze class toe na het klikken van de button */
+.rotateCard {
+  transform: rotateY(180deg);
+}
+
+/* figure style */
+ figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+}
+/* eerste figure */
+figure:first-of-type{
+backface-visibility: hidden;
+}
+
+.rentalInformatie {
+  height: 50%;
+}
+
+figure > img {
+  width: 90vw;
+}
+/* 2e oftewel laatste figure */
+figure:last-of-type {
+transform: rotateY(180deg);
+backface-visibility: hidden;
+
+}
+
+.buttonRuimte {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* button styling */
+  button {
+    width: 90%;
+    background-color: rgb(000 000 000 / 85%);
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 3em;
+    height: 35%;
+  }
+
+  /* styling voor informatiecards */
+.informatieContainer {
+  display: grid;
+  height: 60%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+
+
+.informatieContainer > div:first-of-type {
+  background-color: #7aaffe;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.informatieContainer > div:nth-of-type(2) {
+  background-color: #ff8d8d;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.informatieContainer > div:nth-of-type(3) {
+  background-color: #744be5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.informatieContainer > div:last-of-type {
+  background-color: #63bdd8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
