@@ -5,6 +5,9 @@ Voor deze opdracht ga je een functionaliteit ontwerpen met externe data. De data
 Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
 
+
+SCHRIJF HIERONDER JE PROJECTVERSLAG
+
 # Project titel
 Beschrijf hier je eigen project.
 En voeg een link naar je demo toe.
