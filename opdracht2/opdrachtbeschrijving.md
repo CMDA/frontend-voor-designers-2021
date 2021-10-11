@@ -7,7 +7,6 @@ Werk een functionaliteit uit die je kunt bedienen met 'click' en nog een user in
 - Portfolio website met meerdere projecten en een biografie. Als je naar 'beneden' scrollt vult de betreffende section zich met informatie. Als je op tab klikt ga je ook naar de volgende section. Of als je 'volgende' roept ...
 - Settings panel op een foto-overzichtpagina: Instellingen zijn bijvoorbeeld de font-grootte, night vision en het aantal kolommen die naast elkaar worden getoond. Het bedienen van de instellingen moet met de muis en de sneltoetsen op het toetsenbord.
 - Je mag ook een eigen idee uitwerken. Kom dan eerst even overleggen.
-- 
 
 ## Werkwijze
 Bedenk een functionaliteit die je op meerdere manieren kunt bedienen. Schets eerst hoe de functionaliteit er uit komt te zien. Maak daarna een breakdown-schets van hoe de verschillende elementen technisch moeten gaan werken...
