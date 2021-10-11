@@ -19,13 +19,10 @@ Codeer de functionaliteit in HTML, CSS en JavaScript en test verschillende versi
 3. Les 5: Oplevering en beoordeling
 
 
-
-
-
 ## Criteria
 
-1. In de demo maak je gebruik van verschillende [User Interface events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent).
-2. In de demo dien je rekening te houden met de interface design principles 04, 08 & 09 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/).
+1. De uitwerking kan bedient worden met 'click' en nog een user interactie.
+2. De [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) nr 04, 08 & 09 zijn goed toegepast.
 3. Je ontwerp is aantoonbaar getest en verbeterd. Verslaglegging en resultaat publiceren op Github. <br>Voeg ook je breakdown-schets toe, en beschrijf je eerste idee en technische opzet en hoe het uiteindelijk is geworden. Leg de code uit. 
 
 
