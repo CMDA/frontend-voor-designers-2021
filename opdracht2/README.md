@@ -4,17 +4,3 @@ Werk een functionaliteit uit die je kunt bedienen met 'click' en nog een user in
 
 Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
-
-# Project titel
-Beschrijf hier je eigen project.
-En voeg een link naar je demo toe.
-
-## interface
-Leg de interface uit.
-
-In de demo heb je interface design principles 04, 08 & 09 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
-
-In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?
-
-## code
-Leg de code uit.
