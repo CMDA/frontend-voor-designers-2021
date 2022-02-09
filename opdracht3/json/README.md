@@ -1,6 +1,6 @@
 # Movie data
 
-JSON data met informatie over films. Met een titel,een beschrijving, een korte beschrijving, acteurs, een cover en een trailer. Je kan ook per film de data ophalen. 
+JSON data met informatie over films. Met een titel, datum, beschrijving, een korte beschrijving, acteurs, een cover, een trailer en reviews. Je kan ook per film de data ophalen. 
 
 Bekijk hier de JSON files.
 
