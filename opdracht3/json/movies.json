@@ -5,8 +5,8 @@
         "plot":"Five friends head to a remote cabin, where the discovery of a Book of the Dead leads them to unwittingly summon up demons living in the nearby woods. The evil presence possesses them until only one is left to fight for survival.",
         "simple_plot":"Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons.",
         "release_date":"5 April 2013",
-        "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/evil_dead/cover.jpg",
-        "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/evil_dead/trailer.mp4",
+        "cover":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/evil_dead/cover.jpg",
+        "trailer":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/evil_dead/trailer.mp4",
         "genres":["Horror"],
         "reviews":[
             {
