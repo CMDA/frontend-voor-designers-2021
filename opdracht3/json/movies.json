@@ -85,8 +85,8 @@
         "plot":"Andy Dufresne is a young and successful banker whose life changes drastically when he is convicted and sentenced to life imprisonment for the murder of his wife and her lover. Set in the 1940's, the film shows how Andy, with the help of his friend Red, the prison entrepreneur, turns out to be a most unconventional prisoner. Written by Martin Lewison",
         "simple_plot":"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
         "release_date":"14 October 1994",
-        "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_shawshank_redemption/cover.jpg",
-        "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_shawshank_redemption/trailer.mp4",
+        "cover":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/the_shawshank_redemption/cover.jpg",
+        "trailer":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/the_shawshank_redemption/trailer.mp4",
         "genres":["Crime","Drama"],
         "reviews":[
           {
@@ -271,8 +271,8 @@
         "plot":"The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding with his wife Carmela. His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. Through Michael's life the nature of the family business becomes clear. The business of the family is just like the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family. Don Vito lives his life in the way of the old country, but times are changing and some don't want to follow the old ways and look out for community and family. An up and coming rival of the Corleone family wants to start selling drugs in New York, and needs the Don's influence to further his plan. The clash of the Don's fading old world values and the new ways will demand a terrible price, especially from Michael, all for the sake of the family.",
         "simple_plot":"The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
         "release_date":"24 March 1972",
-        "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_godfather/cover.jpg",
-        "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_godfather/trailer.mp4",
+        "cover":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/the_godfather/cover.jpg",
+        "trailer":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/the_godfather/trailer.mp4",
         "genres":[
           "Crime",
           "Drama"
@@ -453,8 +453,8 @@
         "plot":"Jules Winnfield and Vincent Vega are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace. Wallace has also asked Vincent to take his wife Mia out a few days later when Wallace himself will be out of town. Butch Coolidge is an aging boxer who is paid by Wallace to lose his next fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
         "simple_plot":"The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
         "release_date":"14 October 1994",
-        "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/pulp_fiction/cover.jpg",
-        "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/pulp_fiction/trailer.mp4",
+        "cover":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/pulp_fiction/cover.jpg",
+        "trailer":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/pulp_fiction/trailer.mp4",
         "genres":[
           "Crime",
           "Drama",
@@ -633,8 +633,8 @@
         "plot":"Batman raises the stakes in his war on crime. With the help of Lieutenant Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the city streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as The Joker.",
         "simple_plot":"When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.",
         "release_date":"18 July 2008",
-        "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_dark_knight/cover.jpg",
-        "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/the_dark_knight/trailer.mp4",
+        "cover":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/the_dark_knight/cover.jpg",
+        "trailer":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/the_dark_knight/trailer.mp4",
         "genres":
           [
             "Action",
@@ -853,8 +853,8 @@
         "plot":"A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
         "simple_plot":"An insomniac office worker looking for a way to change his life crosses paths with a devil-may-care soap maker and they form an underground fight club that evolves into something much, much more...",
         "release_date":"15 October 1999",
-        "cover":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/fight_club/cover.jpg",
-        "trailer":"https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies/fight_club/trailer.mp4",
+        "cover":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/fight_club/cover.jpg",
+        "trailer":"https://cmda.github.io/frontend-voor-designers-2021/opdracht3/json/movies/fight_club/trailer.mp4",
         "genres":[
           "Drama"
         ],
